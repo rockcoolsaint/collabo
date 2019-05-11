@@ -10,8 +10,8 @@ require 'capybara/poltergeist'
 require 'factory_bot_rails'
 require 'capybara/rspec'
 
-config.include Devise::Test::IntegrationHelpers, type: :feature
-config.include FactoryBot::Syntax::Methods
+#config.include Devise::Test::IntegrationHelpers, type: :feature
+#config.include FactoryBot::Syntax::Methods
 Capybara.javascript_driver = :poltergeist
 Capybara.server = :puma
 
